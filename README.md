@@ -1,4 +1,10 @@
 
+## Objectives
+* Operations with numbers in Python
+* Different number data types
+* What are Boolean values and how do we use them in our code
+* Choosing data types in our program
+
 ## A quick glance at numbers
 
 All of us are familiar with numbers.  1492 is a number.  So is 34.  And if you think about what you'd like to do with a number, you probably have a pretty strong guess of what Python allows you to do with numbers.
@@ -27,7 +33,7 @@ All of us are familiar with numbers.  1492 is a number.  So is 34.  And if you t
 
 
 
-If you look ask a number for a type, you would find something slightly different.
+If you ask a number for a type, you would find something slightly different.
 
 
 ```python
@@ -53,7 +59,7 @@ type(10.2)
 
 
 
-But all python is indicating is that a number without a decimal is called an `int` for integer and a number with a decimal is called a `float`.  But you can move forward safely with just thinking of them as numbers and everything goes fine.
+All python is indicating is that a number without a decimal is called an `int` for integer and a number with a decimal is called a `float`.  But you can move forward safely with just thinking of them as numbers and everything goes fine.
 
 
 ```python
