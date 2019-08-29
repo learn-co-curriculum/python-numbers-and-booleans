@@ -198,17 +198,23 @@ But would a method like less than ( `<` ) work with a string? Does it make sense
 
 ```python
 "34th street" < 22
-# False
+# TypeError
 ```
 
 
+    ---------------------------------------------------------------------------
+
+    TypeError                                 Traceback (most recent call last)
+
+    <ipython-input-13-60ff4307ab39> in <module>()
+    ----> 1 "34th street" < 22
+          2 # False
 
 
-    False
+    TypeError: '<' not supported between instances of 'str' and 'int'
 
 
-
-Well, now we know for sure.  So, if we want to help our restaurant with deliveries, we should convert our number from a string to a number and then make the comparison.
+Well, now we know for sure.  Comparing a string and number results in an error. So, if we want to help our restaurant with deliveries, we should convert our number from a string to a number and then make the comparison.
 
 
 ```python
