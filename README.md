@@ -7,7 +7,7 @@
 * Boolean values and how we can use them in our code
 * Deciding which datatypes to use in our program
 
-All of us are familiar with numbers.  1492 is a number.  So is 34.  If we think about what the common operations are with numbers, we get a pretty good idea for what Python allows us to do with numbers.
+All of us are familiar with numbers. For example, 1492 is a number.  So is 34.  If we think about what the common operations are with numbers, we get a pretty good idea for what Python allows us to do with numbers.
 
 
 ```python
