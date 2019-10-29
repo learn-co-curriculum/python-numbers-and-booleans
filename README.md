@@ -1,5 +1,5 @@
 
-## A quick glance at numbers
+# A quick glance at numbers
 
 ### Objectives
 * Operating on numbers in Python
@@ -35,7 +35,21 @@ All of us are familiar with numbers. For example, 1492 is a number.  So is 34.  
 
 
 
-If we look at a number for its type, we find something slightly different.
+This was pretty straightforward - raising a certain number to the power $n$ can be done using `**`
+
+
+```python
+2 ** 3
+```
+
+
+
+
+    8
+
+
+
+If we look at a number for its type, we find something slightly different depending on whether there is a decimal or not.
 
 
 ```python
@@ -206,9 +220,9 @@ But would a method like less than ( `<` ) work with a string? Does it make sense
 
     TypeError                                 Traceback (most recent call last)
 
-    <ipython-input-13-60ff4307ab39> in <module>()
+    <ipython-input-14-192047a7e50d> in <module>()
     ----> 1 "34th street" < 22
-          2 # False
+          2 # TypeError
 
 
     TypeError: '<' not supported between instances of 'str' and 'int'
@@ -222,13 +236,6 @@ int('34') < 22
 # False
 ```
 
-
-
-
-    False
-
-
-
 And if we want to go from a number to a string, for example to produce an address, we again need to pay attention to the type.
 
 
@@ -236,13 +243,6 @@ And if we want to go from a number to a string, for example to produce an addres
 str(34) + 'th Street'
 # '34th Street'
 ```
-
-
-
-
-    '34th Street'
-
-
 
 Here we saw our first method for switching between types: simply write the name of the type followed by parentheses and the data on which we want to operate. After introducing this pattern, we can start to explore with others types such as the boolean.
 
@@ -253,24 +253,10 @@ bool(100)
 ```
 
 
-
-
-    True
-
-
-
-
 ```python
 bool(0)
 # False
 ```
-
-
-
-
-    False
-
-
 
 Great, so we can coerce a number to a boolean as well.  And we are beginning to think about keeping our data in one form or another based on what we want to do with that data.    
 
